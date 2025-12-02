@@ -1,3 +1,4 @@
+//variant 12
 #include <iostream>
 #include <string>
 #include <future>
