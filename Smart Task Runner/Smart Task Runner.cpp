@@ -30,7 +30,7 @@ void work()
 
             auto f_c1 = async(launch::async, []() { compute("C1", 1); });
             compute("B1", 7);
-
+             
             f_c1.get();
         });
 
